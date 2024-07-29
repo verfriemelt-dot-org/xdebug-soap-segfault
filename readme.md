@@ -1,7 +1,7 @@
 ```shell
 
 $ make
-XDEBUG_MODE=coverage phpunit --coverage-text
+XDEBUG_MODE=coverage vendor/bin/phpunit --coverage-text
 
 Warning: JIT is incompatible with third party extensions that override zend_execute_ex(). JIT disabled. in Unknown on line 0
 PHPUnit 11.2.8 by Sebastian Bergmann and contributors.

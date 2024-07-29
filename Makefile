@@ -1,2 +1,2 @@
 trigger:
-	XDEBUG_MODE=coverage phpunit --coverage-text
+	XDEBUG_MODE=coverage vendor/bin/phpunit --coverage-text
