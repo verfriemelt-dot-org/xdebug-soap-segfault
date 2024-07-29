@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <ns1:getTheStationListFullResponse xmlns:ns1="urn:StationList" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <getTheStationListFullReturn xmlns:ns2="http://data.soap.web.client.geofox.hbt" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" soapenc:arrayType="ns2:StationLightFull[11972]" xsi:type="soapenc:Array">
+                <getTheStationListFullReturn xsi:type="ns2:StationLightFull">
+                    <strStationId xsi:type="soapenc:string">Master:36007</strStationId>
+                    <strStationName xsi:type="soapenc:string">U Garstedt</strStationName>
+                    <thePureName xsi:type="soapenc:string">U Garstedt</thePureName>
+                    <theVillageName xsi:type="soapenc:string">Garstedt</theVillageName>
+                    <theChangeNode xsi:type="soapenc:string">CN:210</theChangeNode>
+                    <isAlias xsi:type="soapenc:boolean">false</isAlias>
+                    <tarifs xsi:type="soapenc:string">HVV;SH</tarifs>
+                    <gkx xsi:type="soapenc:int">3565150</gkx>
+                    <gky xsi:type="soapenc:int">5950802</gky>
+                    <lat xsi:type="soapenc:double">53.684412</lat>
+                    <lon xsi:type="soapenc:double">9.985005</lon>
+                    <lineNames soapenc:arrayType="ns2:LineName[6]" xsi:type="soapenc:Array">
+                        <lineNames xsi:type="ns2:LineName">
+                            <carrier xsi:type="soapenc:string">VHH</carrier>
+                            <lineKey xsi:type="soapenc:string">VHH:278_VHH</lineKey>
+                            <lineName xsi:type="soapenc:string">278</lineName>
+                            <primeVehicleType xsi:type="ns2:VehicleType">
+                                <vehicleTypeId xsi:type="soapenc:int">205</vehicleTypeId>
+                                <shortText xsi:type="soapenc:string">Bus</shortText>
+                                <longText xsi:type="soapenc:string">Niederflur Stadtbus</longText>
+                                <groupNames soapenc:arrayType="soapenc:string[3]" xsi:type="soapenc:Array">
+                                    <groupNames xsi:type="soapenc:string">bus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">normalbus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">hcacc</groupNames>
+                                </groupNames>
+                            </primeVehicleType>
+                        </lineNames>
+                        <lineNames xsi:type="ns2:LineName">
+                            <carrier xsi:type="soapenc:string">HHA-B</carrier>
+                            <lineKey xsi:type="soapenc:string">HHA-B:178_HHA-B</lineKey>
+                            <lineName xsi:type="soapenc:string">178</lineName>
+                            <primeVehicleType xsi:type="ns2:VehicleType">
+                                <vehicleTypeId xsi:type="soapenc:int">205</vehicleTypeId>
+                                <shortText xsi:type="soapenc:string">Bus</shortText>
+                                <longText xsi:type="soapenc:string">Niederflur Stadtbus</longText>
+                                <groupNames soapenc:arrayType="soapenc:string[3]" xsi:type="soapenc:Array">
+                                    <groupNames xsi:type="soapenc:string">bus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">normalbus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">hcacc</groupNames>
+                                </groupNames>
+                            </primeVehicleType>
+                        </lineNames>
+                        <lineNames xsi:type="ns2:LineName">
+                            <carrier xsi:type="soapenc:string">VHH</carrier>
+                            <lineKey xsi:type="soapenc:string">VHH:295_VHH</lineKey>
+                            <lineName xsi:type="soapenc:string">295</lineName>
+                            <primeVehicleType xsi:type="ns2:VehicleType">
+                                <vehicleTypeId xsi:type="soapenc:int">205</vehicleTypeId>
+                                <shortText xsi:type="soapenc:string">Bus</shortText>
+                                <longText xsi:type="soapenc:string">Niederflur Stadtbus</longText>
+                                <groupNames soapenc:arrayType="soapenc:string[3]" xsi:type="soapenc:Array">
+                                    <groupNames xsi:type="soapenc:string">bus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">normalbus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">hcacc</groupNames>
+                                </groupNames>
+                            </primeVehicleType>
+                        </lineNames>
+                        <lineNames xsi:type="ns2:LineName">
+                            <carrier xsi:type="soapenc:string">VHH</carrier>
+                            <lineKey xsi:type="soapenc:string">VHH:193_VHH</lineKey>
+                            <lineName xsi:type="soapenc:string">193</lineName>
+                            <primeVehicleType xsi:type="ns2:VehicleType">
+                                <vehicleTypeId xsi:type="soapenc:int">205</vehicleTypeId>
+                                <shortText xsi:type="soapenc:string">Bus</shortText>
+                                <longText xsi:type="soapenc:string">Niederflur Stadtbus</longText>
+                                <groupNames soapenc:arrayType="soapenc:string[3]" xsi:type="soapenc:Array">
+                                    <groupNames xsi:type="soapenc:string">bus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">normalbus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">hcacc</groupNames>
+                                </groupNames>
+                            </primeVehicleType>
+                        </lineNames>
+                        <lineNames xsi:type="ns2:LineName">
+                            <carrier xsi:type="soapenc:string">VHH</carrier>
+                            <lineKey xsi:type="soapenc:string">VHH:395_VHH</lineKey>
+                            <lineName xsi:type="soapenc:string">395</lineName>
+                            <primeVehicleType xsi:type="ns2:VehicleType">
+                                <vehicleTypeId xsi:type="soapenc:int">205</vehicleTypeId>
+                                <shortText xsi:type="soapenc:string">Bus</shortText>
+                                <longText xsi:type="soapenc:string">Niederflur Stadtbus</longText>
+                                <groupNames soapenc:arrayType="soapenc:string[3]" xsi:type="soapenc:Array">
+                                    <groupNames xsi:type="soapenc:string">bus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">normalbus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">hcacc</groupNames>
+                                </groupNames>
+                            </primeVehicleType>
+                        </lineNames>
+                        <lineNames xsi:type="ns2:LineName">
+                            <carrier xsi:type="soapenc:string">HHA-B</carrier>
+                            <lineKey xsi:type="soapenc:string">HHA-B:191_HHA-B</lineKey>
+                            <lineName xsi:type="soapenc:string">191</lineName>
+                            <primeVehicleType xsi:type="ns2:VehicleType">
+                                <vehicleTypeId xsi:type="soapenc:int">205</vehicleTypeId>
+                                <shortText xsi:type="soapenc:string">Bus</shortText>
+                                <longText xsi:type="soapenc:string">Niederflur Stadtbus</longText>
+                                <groupNames soapenc:arrayType="soapenc:string[3]" xsi:type="soapenc:Array">
+                                    <groupNames xsi:type="soapenc:string">bus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">normalbus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">hcacc</groupNames>
+                                </groupNames>
+                            </primeVehicleType>
+                        </lineNames>
+                    </lineNames>
+                </getTheStationListFullReturn>
+                <getTheStationListFullReturn xsi:type="ns2:StationLightFull">
+                    <strStationId xsi:type="soapenc:string">Master:36007</strStationId>
+                    <strStationName xsi:type="soapenc:string">U-Bahnhof Garstedt</strStationName>
+                    <thePureName xsi:type="soapenc:string">U-Bahnhof Garstedt</thePureName>
+                    <theVillageName xsi:type="soapenc:string">Garstedt</theVillageName>
+                    <theChangeNode xsi:type="soapenc:string">CN:210</theChangeNode>
+                    <isAlias xsi:type="soapenc:boolean">true</isAlias>
+                    <tarifs xsi:type="soapenc:string">HVV;SH</tarifs>
+                    <gkx xsi:type="soapenc:int">3565150</gkx>
+                    <gky xsi:type="soapenc:int">5950802</gky>
+                    <lat xsi:type="soapenc:double">53.684412</lat>
+                    <lon xsi:type="soapenc:double">9.985005</lon>
+                    <lineNames soapenc:arrayType="ns2:LineName[6]" xsi:type="soapenc:Array">
+                        <lineNames xsi:type="ns2:LineName">
+                            <carrier xsi:type="soapenc:string">HHA-B</carrier>
+                            <lineKey xsi:type="soapenc:string">HHA-B:178_HHA-B</lineKey>
+                            <lineName xsi:type="soapenc:string">178</lineName>
+                            <primeVehicleType xsi:type="ns2:VehicleType">
+                                <vehicleTypeId xsi:type="soapenc:int">205</vehicleTypeId>
+                                <shortText xsi:type="soapenc:string">Bus</shortText>
+                                <longText xsi:type="soapenc:string">Niederflur Stadtbus</longText>
+                                <groupNames soapenc:arrayType="soapenc:string[3]" xsi:type="soapenc:Array">
+                                    <groupNames xsi:type="soapenc:string">bus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">normalbus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">hcacc</groupNames>
+                                </groupNames>
+                            </primeVehicleType>
+                        </lineNames>
+                        <lineNames xsi:type="ns2:LineName">
+                            <carrier xsi:type="soapenc:string">VHH</carrier>
+                            <lineKey xsi:type="soapenc:string">VHH:395_VHH</lineKey>
+                            <lineName xsi:type="soapenc:string">395</lineName>
+                            <primeVehicleType xsi:type="ns2:VehicleType">
+                                <vehicleTypeId xsi:type="soapenc:int">205</vehicleTypeId>
+                                <shortText xsi:type="soapenc:string">Bus</shortText>
+                                <longText xsi:type="soapenc:string">Niederflur Stadtbus</longText>
+                                <groupNames soapenc:arrayType="soapenc:string[3]" xsi:type="soapenc:Array">
+                                    <groupNames xsi:type="soapenc:string">bus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">normalbus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">hcacc</groupNames>
+                                </groupNames>
+                            </primeVehicleType>
+                        </lineNames>
+                        <lineNames xsi:type="ns2:LineName">
+                            <carrier xsi:type="soapenc:string">HHA-B</carrier>
+                            <lineKey xsi:type="soapenc:string">HHA-B:191_HHA-B</lineKey>
+                            <lineName xsi:type="soapenc:string">191</lineName>
+                            <primeVehicleType xsi:type="ns2:VehicleType">
+                                <vehicleTypeId xsi:type="soapenc:int">205</vehicleTypeId>
+                                <shortText xsi:type="soapenc:string">Bus</shortText>
+                                <longText xsi:type="soapenc:string">Niederflur Stadtbus</longText>
+                                <groupNames soapenc:arrayType="soapenc:string[3]" xsi:type="soapenc:Array">
+                                    <groupNames xsi:type="soapenc:string">bus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">normalbus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">hcacc</groupNames>
+                                </groupNames>
+                            </primeVehicleType>
+                        </lineNames>
+                        <lineNames xsi:type="ns2:LineName">
+                            <carrier xsi:type="soapenc:string">VHH</carrier>
+                            <lineKey xsi:type="soapenc:string">VHH:295_VHH</lineKey>
+                            <lineName xsi:type="soapenc:string">295</lineName>
+                            <primeVehicleType xsi:type="ns2:VehicleType">
+                                <vehicleTypeId xsi:type="soapenc:int">205</vehicleTypeId>
+                                <shortText xsi:type="soapenc:string">Bus</shortText>
+                                <longText xsi:type="soapenc:string">Niederflur Stadtbus</longText>
+                                <groupNames soapenc:arrayType="soapenc:string[3]" xsi:type="soapenc:Array">
+                                    <groupNames xsi:type="soapenc:string">bus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">normalbus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">hcacc</groupNames>
+                                </groupNames>
+                            </primeVehicleType>
+                        </lineNames>
+                        <lineNames xsi:type="ns2:LineName">
+                            <carrier xsi:type="soapenc:string">VHH</carrier>
+                            <lineKey xsi:type="soapenc:string">VHH:193_VHH</lineKey>
+                            <lineName xsi:type="soapenc:string">193</lineName>
+                            <primeVehicleType xsi:type="ns2:VehicleType">
+                                <vehicleTypeId xsi:type="soapenc:int">205</vehicleTypeId>
+                                <shortText xsi:type="soapenc:string">Bus</shortText>
+                                <longText xsi:type="soapenc:string">Niederflur Stadtbus</longText>
+                                <groupNames soapenc:arrayType="soapenc:string[3]" xsi:type="soapenc:Array">
+                                    <groupNames xsi:type="soapenc:string">bus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">normalbus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">hcacc</groupNames>
+                                </groupNames>
+                            </primeVehicleType>
+                        </lineNames>
+                        <lineNames xsi:type="ns2:LineName">
+                            <carrier xsi:type="soapenc:string">VHH</carrier>
+                            <lineKey xsi:type="soapenc:string">VHH:278_VHH</lineKey>
+                            <lineName xsi:type="soapenc:string">278</lineName>
+                            <primeVehicleType xsi:type="ns2:VehicleType">
+                                <vehicleTypeId xsi:type="soapenc:int">205</vehicleTypeId>
+                                <shortText xsi:type="soapenc:string">Bus</shortText>
+                                <longText xsi:type="soapenc:string">Niederflur Stadtbus</longText>
+                                <groupNames soapenc:arrayType="soapenc:string[3]" xsi:type="soapenc:Array">
+                                    <groupNames xsi:type="soapenc:string">bus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">normalbus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">hcacc</groupNames>
+                                </groupNames>
+                            </primeVehicleType>
+                        </lineNames>
+                    </lineNames>
+                </getTheStationListFullReturn>
+                <getTheStationListFullReturn xsi:type="ns2:StationLightFull">
+                    <strStationId xsi:type="soapenc:string">Master:81072</strStationId>
+                    <strStationName xsi:type="soapenc:string">Bahnhof Klövensteenweg</strStationName>
+                    <thePureName xsi:type="soapenc:string">Bahnhof Klövensteenweg</thePureName>
+                    <theVillageName xsi:type="soapenc:string">Hamburg</theVillageName>
+                    <theChangeNode xsi:type="soapenc:string" xsi:nil="true"/>
+                    <isAlias xsi:type="soapenc:boolean">false</isAlias>
+                    <tarifs xsi:type="soapenc:string">HVV;SH</tarifs>
+                    <gkx xsi:type="soapenc:int">3550686</gkx>
+                    <gky xsi:type="soapenc:int">5939277</gky>
+                    <lat xsi:type="soapenc:double">53.582472</lat>
+                    <lon xsi:type="soapenc:double">9.764235</lon>
+                    <lineNames soapenc:arrayType="ns2:LineName[1]" xsi:type="soapenc:Array">
+                        <lineNames xsi:type="ns2:LineName">
+                            <carrier xsi:type="soapenc:string">VHH</carrier>
+                            <lineKey xsi:type="soapenc:string">VHH:1_VHH</lineKey>
+                            <lineName xsi:type="soapenc:string">1</lineName>
+                            <primeVehicleType xsi:type="ns2:VehicleType">
+                                <vehicleTypeId xsi:type="soapenc:int">207</vehicleTypeId>
+                                <shortText xsi:type="soapenc:string">Bus</shortText>
+                                <longText xsi:type="soapenc:string">Niederflur Metrobus</longText>
+                                <groupNames soapenc:arrayType="soapenc:string[4]" xsi:type="soapenc:Array">
+                                    <groupNames xsi:type="soapenc:string">bus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">normalbus</groupNames>
+                                    <groupNames xsi:type="soapenc:string">metro</groupNames>
+                                    <groupNames xsi:type="soapenc:string">hcacc</groupNames>
+                                </groupNames>
+                            </primeVehicleType>
+                        </lineNames>
+                    </lineNames>
+                </getTheStationListFullReturn>
+            </getTheStationListFullReturn>
+        </ns1:getTheStationListFullResponse>
+    </soapenv:Body>
+</soapenv:Envelope>
